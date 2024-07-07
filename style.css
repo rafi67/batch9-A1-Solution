@@ -154,7 +154,7 @@ p {
 }
 
 /* Party Location section styles start here */
-.party-location-container {
+.party-location .party-location-container {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
@@ -167,7 +167,7 @@ p {
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
 
-.party-location-container p,
+.party-location .party-location-container p,
 span {
     font-family: Inter;
     font-size: 32px;
@@ -175,6 +175,6 @@ span {
     color: black
 }
 
-.party-location-container span {
+.party-location .party-location-container span {
     color: #FF0000;
 }
