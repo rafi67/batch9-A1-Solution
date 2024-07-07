@@ -152,3 +152,29 @@ p {
     width: 349.16px;
     height: 464.65px;
 }
+
+/* Party Location section styles start here */
+.party-location-container {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.party-location-container p,
+span {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: black
+}
+
+.party-location-container span {
+    color: #FF0000;
+}
