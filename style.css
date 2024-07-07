@@ -253,7 +253,6 @@ span {
 .holiday-section-container {
     width: 1320px;
     height: 986.07px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
@@ -324,4 +323,55 @@ span {
     bottom: 30%;
     left: 55%;
     z-index: 1;
+}
+
+/* portfolio styles */
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
 }
