@@ -380,10 +380,84 @@ span {
 .newsletter-container {
     width: 1320px;
     height: 616px;
-    border: 2px solid blue;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba(255, 0, 0, 0.05);
+    ;
+
+}
+
+.newsletter-container .newsletter-content {
+    width: 896px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-container .newsletter-content .newsletter-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.newsletter-container .newsletter-content .newsletter-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter-container .newsletter-content .newsletter-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.newsletter-container .newsletter-subscribe {
+    width: 648px;
+    height: 72px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.newsletter-container .newsletter-subscribe input {
+    width: 70%;
+    border-radius: 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    padding: 25px 30px 25px 30px;
+}
+
+.newsletter-container .newsletter-subscribe input::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.newsletter-container .newsletter-subscribe button {
+    width: 30%;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
 }
 
 /* footer styles */
@@ -434,7 +508,7 @@ span {
     display: flex;
     color: white;
     height: 30px;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .hr1 {
